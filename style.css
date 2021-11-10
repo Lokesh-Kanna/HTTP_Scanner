@@ -10,6 +10,7 @@
 
 .formdiv {
     display: flex;
+    flex-wrap: wrap;
     margin: 2rem;
     justify-content: center;
 }
@@ -25,4 +26,25 @@ form {
 
 .card {
     margin: 0 20rem;
+}
+
+@media screen and (max-width: 1200px) {
+    .card {
+        margin: 0 15rem;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .card {
+        margin: 0 10rem;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .card {
+        margin: 0 1rem;
+    }
+    .form-control {
+        width: 10rem !important;
+    }
 }

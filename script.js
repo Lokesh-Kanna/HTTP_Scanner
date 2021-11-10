@@ -17,6 +17,9 @@ async function getDetails() {
     let fail = det.tests_failed;
     let id = det.scan_id;
 
+    scanID = id;
+    console.log(scanID);
+
     var card = document.createElement('div');
     card.setAttribute('class', 'card');
     document.body.appendChild(card);
