@@ -22,3 +22,7 @@ form {
     display: flex;
     gap: 1rem;
 }
+
+.card {
+    margin: 0 20rem;
+}
