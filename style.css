@@ -1,0 +1,24 @@
+.navbar {
+    display: flex;
+    justify-content: center !important;
+    font-size: 1.5rem;
+    color: rgb(255, 255, 255);
+    border-bottom-left-radius: 0.9rem;
+    border-bottom-right-radius: 0.9rem;
+    font-weight: 600;
+}
+
+.formdiv {
+    display: flex;
+    margin: 2rem;
+    justify-content: center;
+}
+
+.form-control {
+    width: 30rem !important;
+}
+
+form {
+    display: flex;
+    gap: 1rem;
+}

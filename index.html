@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTTP Scanner</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+      integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="content">
+      <div class="titlebar">
+        <nav class="navbar navbar-dark bg-primary">
+            HTTP SCANNER
+          </nav>
+      </div>
+      <div class="formdiv">
+        <form>
+            <input 
+                type="email" 
+                class="form-control" 
+                id="websiteinp" 
+                placeholder="Enter the website URL"
+                >
+
+            <button 
+                type="button" 
+                class="btn btn-primary"
+                onClick=getDetails()
+                >Primary</button>
+        </form>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
